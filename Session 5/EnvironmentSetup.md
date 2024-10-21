@@ -1,54 +1,100 @@
-# MPM 200: Introduction to Information Management for Epidemiologists
-### Course Overview
+## Step 1: Download and Install Anaconda
+### Substep 1.1: Go to the Anaconda Download Page
+- Open your web browser and navigate to the [Anaconda download page](https://www.anaconda.com/products/distribution).
+- You should see a page similar to the one below:
 
-MPM 200 — Introduction to Information Management for Epidemiologists (1 unit) Course Description: Introduction to the practical application of epidemiological methods to solve problems involving population health data. Emphasis on using worksheet/database software tools for organizing, analyzing, reporting, and interpreting data.
+ Anaconda Download Page
 
-## Session 5: Introduction to R Programming and Collaborative Science
+### Substep 1.2: Select the Correct Version
+- Choose the appropriate version of Anaconda for your operating system (Windows, macOS, or Linux).
+- Select the **Python 3** version, as it is the recommended version for this course.
 
-### Objectives
-- **Introduction to R Programming**: Learn the basics of the R programming language, a crucial tool for data analysis in epidemiology.
-- **Project Management**: Understand the fundamentals of project management in the context of epidemiological research.
-- **Collaborative and Reproducible Science**: Explore the principles of collaborative and reproducible science, including the use of various Integrated Development Environments (IDEs) such as Jupyter and Anaconda.
+### Substep 1.3: Download the Installer
+- Click on the download link to start the download process.
+- Wait for the download to complete.
 
-### Key Topics
-- Basic `R` syntax and data types
-- Setting up and using `Jupyter` and `Anaconda` environments
-- Best practices for collaborative research and reproducibility
+### Substep 1.4: Install Anaconda
+- Run the downloaded installer.
+- Follow the installation instructions. Here are some key steps:
+  - Accept the terms of the license agreement.
+  - Choose the installation location.
+  - Decide whether to add Anaconda to your PATH (recommended for ease of use).
+  - Complete the installation.
 
-## Session 8: Collaborative Analysis with Version Control Using GitHub
+## Step 2: Install R Kernel
+### Substep 2.1: Open Anaconda Navigator or Command Line
+- After installing Anaconda, open Anaconda Navigator or your command line interface.
 
-### Objectives
-- **Version Control with GitHub**: Learn how to collaboratively work on analyses using version control systems, specifically GitHub.
-- **GitHub Desktop**: Understand key concepts of GitHub using the Desktop application.
+### Substep 2.2: Install R Using Conda
+- If using the command line, run the following command to install R:
+  ```bash
+  conda install -c conda-forge r-essentials
+  ```
+- If using Anaconda Navigator, you can search for `r-essentials` in the search bar, select it, and click the "Apply" button to install.
 
-### Key Topics
-- Creating and managing repositories
-- Committing and pushing changes
-- Collaborating with team members using GitHub
-- Resolving conflicts and managing branches
+### Substep 2.3: Install IRKernel
+- To use R within Jupyter Notebooks, you need to install the IRKernel package. Run the following commands in your R console or RStudio:
+  ```R
+  install.packages('IRkernel')
+  IRkernel::installspec()
+  ```
 
-## Session 9: Introduction to Python and Data Management for Epidemiologists
+## Step 4: Start a New Jupyter Notebook
+### Substep 4.1: Launch Jupyter Notebook
+- Open Anaconda Navigator and click on the "Launch" button under the Jupyter Notebook section.
+- Alternatively, you can open a terminal or command prompt and run:
+  ```bash
+  jupyter notebook
+  ```
+- This will start the Jupyter Notebook server, and you can access it through your web browser.
 
-### Objectives
-- **Introduction to Python**: Learn the basics of the Python programming language and compare it with R.
-- **Data Management and Database Development**: Explore the basics of data management and database development specifically for epidemiologists.
+### Substep 4.2: Create a New Notebook
+- In the Jupyter Notebook interface, click on the "New" button to create a new notebook.
+- Select the R kernel from the dropdown menu.
 
-### Key Topics
-- Basic Python syntax and data types
-- Comparison of `R` and `Python`: pros, cons, and use cases
-- Data management principles: data cleaning, data storage, and database development
-- Using Python libraries for epidemiological data analysis (e.g., `Pandas`, `NumPy`)
+## Step 5: Solve the Exercise
+### Substep 5.1: Load Necessary Packages
+```R
+# Install necessary packages if not already installed
+install.packages('beepr', type = 'binary')
+install.packages('tidyverse', type = 'binary')
+install.packages('ggplot2', type = 'binary')
+install.packages('dplyr', type = 'binary')
 
-### Resources
-- Course materials and examples will be available on this GitHub repository.
-- Additional resources and links to relevant tools and software will be provided throughout the sessions.
+# Load the packages
+library(beepr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+```
 
-### Participation and Engagement
-Active participation in class discussions, hands-on exercises, and collaborative projects is expected. Students are encouraged to ask questions and share their experiences to enhance the learning environment.
+## Getting ready with Github for upcoming classes.
+## Step 4: Create a GitHub Account and Follow Relevant Pages
+### Substep 3.1: Create a GitHub Account
+- Open your web browser and navigate to the [GitHub sign-up page](https://github.com/join).
+- Fill in the required information:
+  - Username
+  - Email address: use uc davis email id, so as to make sure that you get the _pro_ account.
+  - Password
+  - Verification code (if prompted)
+- Complete the sign-up process.
 
----
+ GitHub Sign-up Page
 
-For more details and updates, please refer to the course schedule and announcements on this GitHub repository. If you have any questions or need further assistance, feel free to reach out to the course instructors.
+### Substep 3.2: Follow EpiPandit Lab and Pranav Pandit GitHub Pages
+- Navigate to the [EpiPandit Lab GitHub page](https://github.com/EpiPanditLab).
+- Click the "Follow" button to follow the EpiPandit Lab.
 
-Dr. Pranav Pandit: pspandit@ucdavis.edu  
-Dr. Sharif Aly: saly@ucdavis.edu
+ Follow EpiPandit Lab
+
+- Navigate to the [Pranav Pandit GitHub page](https://github.com/PranavPandit).
+- Click the "Follow" button to follow Pranav Pandit.
+
+ Follow Pranav Pandit
+
+### Substep 3.3: Follow the Course-Specific GitHub Repository
+- Navigate to the GitHub repository specific for the course (provide the link here).
+- Click the "Watch" or "Star" button to follow the repository.
+
+ Follow Course Repository
+
