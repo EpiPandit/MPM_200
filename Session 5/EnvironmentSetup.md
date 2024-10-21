@@ -80,18 +80,18 @@ library(dplyr)
  GitHub Sign-up Page
 
 ### Substep 3.2: Follow EpiPandit Lab and Pranav Pandit GitHub Pages
-- Navigate to the [EpiPandit Lab GitHub page]([https://github.com/EpiPanditLab](https://github.com/EpiPandit)).
+- Navigate to the [EpiPandit Lab GitHub page](https://github.com/EpiPanditLab](https://github.com/EpiPandit).
 - Click the "Follow" button to follow the EpiPandit Lab.
 
  Follow EpiPandit Lab
 
-- Navigate to the [Pranav Pandit GitHub page]([https://github.com/PranavPandit](https://github.com/PanditPranav)).
+- Navigate to the [Pranav Pandit GitHub page](https://github.com/PranavPandit](https://github.com/PanditPranav).
 - Click the "Follow" button to follow Pranav Pandit.
 
  Follow Pranav Pandit
 
 ### Substep 3.3: Follow the Course-Specific GitHub Repository
-- Navigate to the GitHub repository specific for the course ([provide the link here](https://github.com/EpiPandit/MPM_200/tree/main)).
+- Navigate to the GitHub repository specific for the course ([MPM-200](https://github.com/EpiPandit/MPM_200/tree/main)).
 - Click the "Watch" or "Star" button to follow the repository.
 
  Follow Course Repository
