@@ -80,12 +80,12 @@ library(dplyr)
  GitHub Sign-up Page
 
 ### Substep 3.2: Follow EpiPandit Lab and Pranav Pandit GitHub Pages
-- Navigate to the [EpiPandit Lab GitHub page](https://github.com/EpiPanditLab](https://github.com/EpiPandit).
+- Navigate to the [GitHub page of EpiPandit Lab](https://github.com/EpiPandit).
 - Click the "Follow" button to follow the EpiPandit Lab.
 
  Follow EpiPandit Lab
 
-- Navigate to the [Pranav Pandit GitHub page](https://github.com/PranavPandit](https://github.com/PanditPranav).
+- Navigate to the [Pranav Pandit's GitHub page](https://github.com/PanditPranav).
 - Click the "Follow" button to follow Pranav Pandit.
 
  Follow Pranav Pandit
