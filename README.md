@@ -50,5 +50,5 @@ Active participation in class discussions, hands-on exercises, and collaborative
 
 For more details and updates, please refer to the course schedule and announcements on this GitHub repository. If you have any questions or need further assistance, feel free to reach out to the course instructors.
 
-Dr. Pranav Pandit: pspandit@ucdavis.edu
+Dr. Pranav Pandit: pspandit@ucdavis.edu  
 Dr. Sharif Aly: saly@ucdavis.edu
