@@ -66,7 +66,7 @@ library(ggplot2)
 library(dplyr)
 ```
 
-## Getting ready with Github for upcoming classes.
+## Getting ready with GitHub for upcoming classes.
 ## Step 4: Create a GitHub Account and Follow Relevant Pages
 ### Substep 3.1: Create a GitHub Account
 - Open your web browser and navigate to the [GitHub sign-up page](https://github.com/join).
