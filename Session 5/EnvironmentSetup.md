@@ -23,7 +23,10 @@
   - Complete the installation.
 
 ## Step 2: Install R Kernel
-### Substep 2.0: Create a new R-related environment in Anaconda
+### Substep 2.0: Open Anaconda Navigator or Command Line
+- After installing Anaconda, open Anaconda Navigator or your command line interface.
+
+### Substep 2.1: Create a new R-related environment in Anaconda
 - ```bash
   conda create R_env
   ```
@@ -32,22 +35,15 @@
   conda activate R_env
   ```
 
-### Substep 2.1: Open Anaconda Navigator or Command Line
-- After installing Anaconda, open Anaconda Navigator or your command line interface.
-
-### Substep 2.2: Install R Using Conda
+### Substep 2.2: Connect already installed R from on computer to anaconda coding setup
 - If using the command line, run the following command to install R:
   ```bash
-  conda install -c conda-forge r-essentials
-  ```
-- If using Anaconda Navigator, you can search for `r-essentials` in the search bar, select it, and click the "Apply" button to install.
+  install.packages("devtools")
 
-### Substep 2.3: Install IRKernel
-- To use R within Jupyter Notebooks, you need to install the IRKernel package. Run the following commands in your R console or RStudio:
-  ```bash
-  conda install -c r r-irkernel
-  ```
+  devtools::install_github("IRkernel/IRkernel")
 
+  IRkernel::installspec()
+  ```
 ## Step 4: Start a New Jupyter Notebook
 ### Substep 4.1: Launch Jupyter Notebook
 - Open Anaconda Navigator and click on the "Launch" button under the Jupyter Notebook section.
