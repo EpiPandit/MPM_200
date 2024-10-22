@@ -23,6 +23,15 @@
   - Complete the installation.
 
 ## Step 2: Install R Kernel
+### Substep 2.0: Create a new R-related environment in Anaconda
+- ```bash
+  conda create R_env
+  ```
+- before we move ahead, activate the new `R_env` before moving ahead
+- ```bash
+  conda activate R_env
+  ```
+
 ### Substep 2.1: Open Anaconda Navigator or Command Line
 - After installing Anaconda, open Anaconda Navigator or your command line interface.
 
