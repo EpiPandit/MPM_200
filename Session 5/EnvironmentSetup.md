@@ -1,3 +1,6 @@
+## Step 0: Download and Install R
+- Make sure you have downloaded base R for [windows](https://cran.r-project.org/bin/windows/base/) or [macx](https://cran.r-project.org/bin/macosx/)
+
 ## Step 1: Download and Install Anaconda
 ### Substep 1.1: Go to the Anaconda Download Page
 - Open your web browser and navigate to the [Anaconda download page](https://www.anaconda.com/products/distribution).
