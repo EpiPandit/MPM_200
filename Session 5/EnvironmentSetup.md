@@ -1,6 +1,3 @@
-## Step 0: Download and Install R
-- Make sure you have downloaded base R for [windows](https://cran.r-project.org/bin/windows/base/) or [macx](https://cran.r-project.org/bin/macosx/)
-
 ## Step 1: Download and Install Anaconda
 ### Substep 1.1: Go to the Anaconda Download Page
 - Open your web browser and navigate to the [Anaconda download page](https://www.anaconda.com/products/distribution).
@@ -28,21 +25,33 @@
 
 ### Substep 2.1: Create a new R-related environment in Anaconda
 - ```bash
-  conda create R_env
+  conda create r_env
   ```
 - before we move ahead, activate the new `R_env` before moving ahead
 - ```bash
   conda activate R_env
   ```
+### In this new environment install R
+```bash
+  conda install c conda-forge r-base
+  ```
 
-### Substep 2.2: Connect already installed R from on computer to anaconda coding setup
-- If using the command line, run the following command to install R:
-  ```bash
-  install.packages("devtools")
-
-  devtools::install_github("IRkernel/IRkernel")
-
+### Connect this with Jupyter 
+In the same environment 
+```bash
+  conda install jupyter
+  ```
+#### Start R console in the r_env
+```bash
+  R
+  ```
+```bash
+  install.packages('IRkernel')
   IRkernel::installspec()
+  ```
+
+```bash
+  q()
   ```
 ## Step 4: Start a New Jupyter Notebook
 ### Substep 4.1: Launch Jupyter Notebook
