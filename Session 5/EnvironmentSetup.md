@@ -32,9 +32,8 @@
 
 ### Substep 2.3: Install IRKernel
 - To use R within Jupyter Notebooks, you need to install the IRKernel package. Run the following commands in your R console or RStudio:
-  ```R
-  install.packages('IRkernel')
-  IRkernel::installspec()
+  ```bash
+  conda install -c r r-irkernel
   ```
 
 ## Step 4: Start a New Jupyter Notebook
