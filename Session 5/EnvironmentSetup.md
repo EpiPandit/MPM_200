@@ -29,7 +29,7 @@
   ```
 - before we move ahead, activate the new `R_env` before moving ahead
 - ```bash
-  conda activate R_env
+  conda activate r_env
   ```
 ### In this new environment install R
 ```bash
