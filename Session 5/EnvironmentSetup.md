@@ -25,7 +25,7 @@
 
 ### Substep 2.1: Create a new R-related environment in Anaconda
 - ```bash
-  conda create r_env
+  conda create --name r_env
   ```
 - before we move ahead, activate the new `R_env` before moving ahead
 - ```bash
