@@ -35,6 +35,14 @@
 ```bash
   conda install c conda-forge r-base
   ```
+### if the one above does not work
+```bash
+  conda install r-base
+  ```
+AND
+```bash
+  conda install conda-forge::r-irkernel
+```  
 
 ### Connect this with Jupyter 
 In the same environment 
