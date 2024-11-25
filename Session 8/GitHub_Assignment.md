@@ -2,9 +2,9 @@
 
 ## Part 1: Setting Up Your GitHub Account
 
-Step 1: Create a GitHub Account
+* Step 1: Create a GitHub Account
 
-If you don’t already have a GitHub account, go to   and create one.
+1If you don’t already have a GitHub account, go to and create one.
 
 What is GitHub? GitHub is a platform where developers and data scientists store, share, and collaborate on code and projects.
 
