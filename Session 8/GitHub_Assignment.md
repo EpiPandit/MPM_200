@@ -8,7 +8,7 @@
 
 What is GitHub? GitHub is a platform where developers and data scientists store, share, and collaborate on code and projects.
 
-Step 2: Follow the Instructor’s Repository and Account
+* Step 2: Follow the Instructor’s Repository and Account
 
 Why? Following ensures you're connected to your instructor’s resources and updates.
 
@@ -16,19 +16,19 @@ After creating your account, perform these actions:
 
 Follow this Repository:
 
-Follow your Instructor’s Account: PanditPranav](
+Follow your Instructor’s Account: PanditPranav
 
 ## Part 2: Creating and Setting Up Your Repository
 
-Step 3: Use a Template to Create Your Own Repository
+* Step 3: Use a Template to Create Your Own Repository
 
 Navigate to this template repository:
 
-Click on the green "Use this template" button and name your repository as: *MPM_200_<YourLastName>*.
+Click on the green "Use this template" button and name your repository as: `MPM_200_<YourLastName>`.
 
 Example: If your last name is Sharma, name your repository *MPM_200_Sharma*.
 
-Step 4: Invite Your Instructor
+* Step 4: Invite Your Instructor
 
 Go to Settings > Collaborators in your repository.
 
@@ -44,7 +44,7 @@ Pull: Downloads updates from the remote repository to your local repository.
 
 ## Part 4: First Commit and Repository Setup
 
-Step 5: Edit and Commit Your `README.md` File
+* Step 5: Edit and Commit Your `README.md` File
 
 What is `README.md`? It’s a markdown file that provides a summary of your project.
 
@@ -60,9 +60,9 @@ Write a 5-sentence summary about your first assignment on hummingbird data:
 
 After editing, commit your changes:
 
-- Use a meaningful commit message, such as Initial commit with project summary.
+- Use a meaningful commit message, such as `Initial commit` with a project summary.
 
-Step 6: Organize Repository Structure
+* Step 6: Organize Repository Structure
 
 Folders in the Repository:
 
@@ -78,7 +78,7 @@ Upload the files and commit your changes. Use a descriptive message like:
 
 ## Part 5: Updating and Analyzing Code
 
-Step 7: Modify Code for Visualization
+* Step 7: Modify Code for Visualization
 
 Task: Update your code to create a timeline plot of monthly hummingbird admissions.
 
@@ -86,7 +86,7 @@ Differentiate between species groups using the *Species_group* column.
 
 Your plot should show admissions for two distinct species groups over time.
 
-Step 8: Push Your Changes to GitHub
+* Step 8: Push Your Changes to GitHub
 
 After completing the code changes:
 
@@ -98,7 +98,7 @@ After completing the code changes:
 
 ## Part 6: Syncing Updates from the Instructor
 
-Step 9: Pull Changes from Your Instructor
+* Step 9: Pull Changes from Your Instructor
 
 Your instructor will push new code for Backward Selection Analysis to your repository.
 
@@ -108,7 +108,7 @@ Why Pull? This ensures your local repository stays synchronized with the instruc
 
 ## Part 7: Exploring and Interpreting the GLM Model
 
-Step 10: Explore Model Properties
+* Step 10: Explore Model Properties
 
 Use this command to view the properties of the fitted model:
 
@@ -120,7 +120,7 @@ names(backward_model)
 
 Q1: How many model properties are available?
 
-Step 11: Calculate Odds Ratios
+* Step 11: Calculate Odds Ratios
 
 Calculate odds ratios manually or use this command for a summary:
 
