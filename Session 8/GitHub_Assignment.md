@@ -1,6 +1,6 @@
-GitHub Workflow and Hummingbird Data Analysis
+# GitHub Workflow and Hummingbird Data Analysis
 
-Part 1: Setting Up Your GitHub Account
+## Part 1: Setting Up Your GitHub Account
 
 Step 1: Create a GitHub Account
 
@@ -18,7 +18,7 @@ Follow this Repository:
 
 Follow your Instructor’s Account: PanditPranav](
 
-Part 2: Creating and Setting Up Your Repository
+## Part 2: Creating and Setting Up Your Repository
 
 Step 3: Use a Template to Create Your Own Repository
 
@@ -34,7 +34,7 @@ Go to Settings > Collaborators in your repository.
 
 Add PanditPranav as a collaborator.
 
-Part 3: Understanding GitHub Operations
+## Part 3: Understanding GitHub Operations
 
 Commit: Saves changes to your local repository.
 
@@ -42,7 +42,7 @@ Push: Uploads committed changes from your local repository to the remote reposit
 
 Pull: Downloads updates from the remote repository to your local repository.
 
-Part 4: First Commit and Repository Setup
+## Part 4: First Commit and Repository Setup
 
 Step 5: Edit and Commit Your `README.md` File
 
@@ -76,7 +76,7 @@ Upload the files and commit your changes. Use a descriptive message like:
 
 - Uploaded data, code, and output files.
 
-Part 5: Updating and Analyzing Code
+## Part 5: Updating and Analyzing Code
 
 Step 7: Modify Code for Visualization
 
@@ -96,7 +96,7 @@ After completing the code changes:
 
 - Push the changes to your remote GitHub repository.
 
-Part 6: Syncing Updates from the Instructor
+## Part 6: Syncing Updates from the Instructor
 
 Step 9: Pull Changes from Your Instructor
 
@@ -106,7 +106,7 @@ Use the Pull feature in GitHub Desktop to download and merge these updates into 
 
 Why Pull? This ensures your local repository stays synchronized with the instructor's updates.
 
-Part 7: Exploring and Interpreting the GLM Model
+## Part 7: Exploring and Interpreting the GLM Model
 
 Step 10: Explore Model Properties
 
