@@ -164,7 +164,7 @@ Answer these questions:
 
 ### Step 11: Committing the new updated outputs
 
-For submission of this assignment push the final code to your repository using instructions in [Step 8](# step-8:-pushing-your-changes-to-gitHub-using-colab)
+For submission of this assignment push the final code to your repository using instructions in [Step 8](https://github.com/EpiPandit/MPM_200/blob/main/Session%208/251119_psk_GitHub_Assignment.md#step-8-pushing-your-changes-to-github-using-colab)
 
 As usual, provide a meaningful commit message.
 
