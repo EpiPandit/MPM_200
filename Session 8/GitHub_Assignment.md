@@ -95,6 +95,8 @@ After completing the code changes:
 - Added timeline plot of monthly admissions.
 
 - Push the changes to your remote GitHub repository.
+  
+- Once you are done with this step, reach out to the instructor for updates on the code. 
 
 ## Part 6: Syncing Updates from the Instructor
 
@@ -137,5 +139,7 @@ Answer these questions:
 - Q2: Which variable has the highest odds ratio for survival?
 
 - Q3: Do the calculated odds ratios match the values provided by sjPlot?
+
+Push the final code to your repository.
 
 Total Points: 30
