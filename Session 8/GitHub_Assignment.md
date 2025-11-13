@@ -4,7 +4,7 @@
 
 * Step 1: Create a GitHub Account
 
-1If you don’t already have a GitHub account, go to and create one.
+If you don’t already have a GitHub account, go to GitHub and create one.
 
 What is GitHub? GitHub is a platform where developers and data scientists store, share, and collaborate on code and projects.
 
@@ -14,7 +14,7 @@ Why? Following ensures you're connected to your instructor’s resources and upd
 
 After creating your account, perform these actions:
 
-Follow this Repository:
+Follow this Repository: [EpiPandit/MPM_200](https://github.com/EpiPandit/MPM_200)
 
 Follow your Instructor’s Accounts: PanditPranav, EpiPandit, vetpsk
 
@@ -22,7 +22,7 @@ Follow your Instructor’s Accounts: PanditPranav, EpiPandit, vetpsk
 
 * Step 3: Use a Template to Create Your Own Repository
 
-Navigate to this template repository:
+Navigate to this template repository: [Template](https://github.com/EpiPandit/EpiPandit_Template)
 
 Click on the green "Use this template" button and name your repository as: `MPM_200_<YourLastName>`.
 
@@ -32,7 +32,7 @@ Example: If your last name is Sharma, name your repository *MPM_200_Sharma*.
 
 Go to Settings > Collaborators in your repository.
 
-Add PanditPranav as a collaborator.
+Add PanditPranav and vetpsk (both) as collaborators.
 
 ## Part 3: Understanding GitHub Operations
 
