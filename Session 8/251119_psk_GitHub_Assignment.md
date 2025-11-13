@@ -164,7 +164,7 @@ Answer these questions:
 
 ### Step 11: Committing the new updated outputs
 
-For submission of this assignment push the final code to your repository using instructions in [Step 8](#Step-8:-Pushing-Your-Changes-to-GitHub-using-Colab)
+For submission of this assignment push the final code to your repository using instructions in [Step 8](# step-8:-pushing-your-changes-to-gitHub-using-colab)
 
 As usual, provide a meaningful commit message.
 
