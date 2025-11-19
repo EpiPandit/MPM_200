@@ -153,7 +153,7 @@ library(sjPlot)
 
 tab_model(backward_model)
 ```
-
+If `tab_model()` doesn't work use `summary(YOUR MODEL NAME HERE)`
 Answer these questions:
 
 -   Q2: Which variable has the highest odds ratio for survival?
